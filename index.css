@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+  }
+  .navbar{
+    background-color: whitesmoke !important;
+  }
+  .navbar a{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin:0px 40px;
+  }
+  .navbar-nav .active{
+    background-color: rgb(242, 223, 12);
+    color: white !important;
+  }
+  .navbar a:hover{
+    color: white;
+    background-color: rgb(242, 223, 12);
+  }
+  
+  @media (max-width: 991px){
+    .nav-item{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .navbar a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+.first{
+    margin: 4px;
+}
+.first a{
+  color: gray !important;
+  border: 1.5px gray solid !important;
+}
+.first a:hover{
+  cursor: pointer !important;
+  background-color: rgb(242, 223, 12) !important;
+  color: white !important;
+  border: none !important;
+}
+.list a{
+    text-decoration: none;
+    border-bottom: 1.5px grey dotted;
+    color: gray;
+    margin: 15px 0px;
+}
+.card-body a{
+  color: gray !important;
+  border: 1.5px gray solid !important;
+}
+.card-body a:hover{
+  cursor: pointer !important;
+  background-color: rgb(242, 223, 12) !important;
+  color: white !important;
+  border: none !important;
+}
+.badge{
+  color: gray !important;
+}
+
+@media (max-width: 1260px){
+  .carousel-inner .carousel-item .cards{
+       margin-top: 50px !important;
+  }
+}
